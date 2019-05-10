@@ -16,15 +16,34 @@ https://www.iconfinder.com/Makoto_msk */}
         <Link to="/">
           <img src={logo} alt="store" className="navbar-brand" />
         </Link>
+
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
-            <Link to="/" className="nav-link">
-              products
+            <Link to="/home" className="nav-link">
+              Home
             </Link>
           </li>
         </ul>
 
-        <Link to="/cart" className="ml-auto">
+        <ul className="navbar-nav align-items-center">
+          <li className="nav-item ml-5">
+            <Link to="/items" className="nav-link">
+              Artículos
+            </Link>
+          </li>
+        </ul>
+
+        <Link to="/sell" className="ml-auto">
+              <div class="text-right">
+                <button type="button" class="btn btn-primary">
+                  Registrate
+                </button>
+              </div>
+            </Link>
+
+            <br></br>
+
+        <Link to="/cart" className="ml-right">
           <ButtonCointainer>
             <span className="mr-2">
               <i className="fas fa-cart-plus" />
@@ -32,16 +51,17 @@ https://www.iconfinder.com/Makoto_msk */}
             Carrito
           </ButtonCointainer>
         </Link>
+
       </NavWrapper>
     );
   }
 }
 
 const NavWrapper = styled.nav`
-background: var(--mainBlue);
-.nav-link{
-    color:var(--mainWhite)!important;
-    font-size:1.3rem;
+  background: var(--mainBlue);
+  .nav-link {
+    color: var(--mainWhite) !important;
+    font-size: 1.3rem;
     text-transform: capitalize;
-}
-`
+  }
+`;

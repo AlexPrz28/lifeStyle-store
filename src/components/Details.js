@@ -15,6 +15,8 @@ export default class Details extends Component {
             info,
             price,
             title,
+            gender,
+            size,
             inCart
           } = value.detailProduct;
           return (
@@ -38,6 +40,14 @@ export default class Details extends Component {
                     {" "}
                     por: <span className="text-uppercase"> {company} </span>
                   </h4>
+                  <h4 className="text-title text-uppercase text-muted mt-3 mb-2">
+                    {" "}
+                    para: <span className="text-uppercase"> {gender} </span>
+                  </h4>
+                  <h4 className="text-title text-uppercase text-muted mt-3 mb-2">
+                    {" "}
+                    talla: <span className="text-uppercase"> {size} </span>
+                  </h4>
                   <h4 className="text-blue">
                     <strong>
                       precio: <span>$</span>
@@ -50,7 +60,7 @@ export default class Details extends Component {
                   <p className="text-muted lead"> {info} </p>
                   {/* buttons */}
                   <div>
-                    <Link to="/">
+                    <Link to="/items">
                       <ButtonCointainer>
                         Volver a los productos
                       </ButtonCointainer>
