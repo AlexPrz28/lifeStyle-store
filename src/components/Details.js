@@ -44,9 +44,9 @@ export default class Details extends Component {
                     {" "}
                     para: <span className="text-uppercase"> {gender} </span>
                   </h4>
-                  <h4 className="text-title text-uppercase text-muted mt-3 mb-2">
+                  <h4 className="text-success">
                     {" "}
-                    talla: <span className="text-uppercase"> {size} </span>
+                    <strong>Intercambio: <span className="text-uppercase"> {size} </span></strong>
                   </h4>
                   <h4 className="text-blue">
                     <strong>
