@@ -20,23 +20,11 @@ export default class Details extends Component {
 
         <div class="carousel-inner">
         <div class="carousel-item active">
-        <img class="d-block w-100" src="https://media.gucci.com/content/DiaryHeroArticle_Standard_1600x812/1547391604/DiaryHeroArticle_ForeverGuilty-Campaign_001_Default.jpg" alt="First slide">
+        <img class="d-block w-100" src= {require('../Imagenes/Home1.jpeg')} alt="First slide" fluid> 
         </img>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="https://fashionista.com/.image/t_share/MTU2OTYwMDIzNTU2MTM4NzAy/givenchy-fall-2018-ad-campaign.png" alt="Second slide">
-            </img>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="https://eu.louisvuitton.com/images/is/image/lv/1/VE_DI3_L/louis-vuitton--1394_LVNow_The_Womens_Spring-Summer_2019_Campaign_Photos_3_DI3.jpg" alt="Third slide">
-            </img>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="https://trace.tv/wp-content/uploads/2017/11/Calvin-Klein-our-family-my-calvins-the-impression-07.jpg"alt="Fourth slide">
-            </img>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0094/2252/files/1_6f082ea2-a45e-4e30-8a09-cd9e9b96d1fa.jpg?v=1549467773" alt="Fifth slide">
+            <img class="d-block w-100" src={require('../Imagenes/Loop.png')} alt="Second slide" fluid>
             </img>
           </div>
         </div>
