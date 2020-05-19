@@ -20,7 +20,7 @@ export default class Details extends Component {
 
         <div class="carousel-inner">
         <div class="carousel-item active">
-        <img class="d-block w-100" src= {require('../Imagenes/home.jpeg')} alt="First slide" fluid> 
+        <img class="d-block w-100" src= {require('../Imagenes/home.JPG')} alt="First slide" fluid> 
         </img>
         </div>
         <div class="carousel-item">
